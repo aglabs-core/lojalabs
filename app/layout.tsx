@@ -53,7 +53,7 @@ export const viewport: Viewport = {
 const PRODUCTS = [
   // Serviços da marca AG LABS
   { name: "Websites que vendem", url: "https://lp.aglabs.ia.br/" },
-  { name: "Agentes de IA", url: "https://rag.aglabs.api.br/" },
+  { name: "Agentes de IA", url: "https://rag.aglabs.ia.br/" },
   { name: "Automações (Workflows)", url: "https://wf.aglabs.ia.br/" },
   { name: "Templates React (VibeKit)", url: "https://templates.aglabs.ia.br/" },
   // Produtos de marca própria (entidade própria, AG LABS como creator)
