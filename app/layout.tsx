@@ -34,12 +34,15 @@ export const metadata: Metadata = {
     siteName: "Loja Labs",
     locale: "pt_BR",
     type: "website",
+    // Card 1200x630 em JPEG, abaixo dos ~300 KB que o WhatsApp aceita na prévia.
+    images: [{ url: "/og-cover.jpg", width: 1200, height: 630, alt: "Loja Labs — produtos digitais da AG LABS" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Loja Labs — Websites, Agentes de IA e Automações | AG LABS",
     description:
       "A loja da AG LABS: websites que vendem, agentes de IA, automações e templates para automatizar processos e escalar o seu negócio.",
+    images: ["/og-cover.jpg"],
   },
 };
 
