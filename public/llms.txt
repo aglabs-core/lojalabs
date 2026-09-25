@@ -4,7 +4,7 @@
 
 ## Soluções AG LABS (core)
 - Sites para negócios locais: https://lp.aglabs.ia.br/
-- Agentes de IA / Atendente para WhatsApp: https://rag.aglabs.api.br/
+- Agentes de IA / Atendente para WhatsApp: https://rag.aglabs.ia.br/
 - Automações (Workflows): https://wf.aglabs.ia.br/
 - Templates React (VibeKit): https://templates.aglabs.ia.br/
 - Barberias — SaaS para barbearias: https://barberias.com.br/
