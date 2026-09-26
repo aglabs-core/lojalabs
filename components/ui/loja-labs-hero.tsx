@@ -1,5 +1,6 @@
 "use client";
 
+import { preload } from "react-dom";
 import { ArrowUpRight, Menu, Search } from "lucide-react";
 import {
   Sheet,
@@ -97,13 +98,17 @@ export function CommerceHero() {
     },
   };
 
+  // Fundo do card do topo (maior elemento da tela): sem o preload, só é
+  // descoberto quando o CSS inline é aplicado.
+  preload("/hero-bg.webp", { as: "image", fetchPriority: "high" });
+
   return (
     <div className="w-full relative container px-2 mx-auto max-w-7xl min-h-screen">
       {/* ─── Hero card ─── */}
       <div
         className="mt-6 rounded-2xl relative overflow-hidden"
         style={{
-          backgroundImage: 'url("/hero-bg.jpg")',
+          backgroundImage: 'url("/hero-bg.webp")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
