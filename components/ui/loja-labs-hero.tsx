@@ -139,7 +139,7 @@ export function CommerceHero() {
           <div className="hidden md:flex w-1/2 justify-end items-center pr-4 gap-4 ml-auto">
             <Button
               variant="secondary"
-              className="cursor-pointer bg-primary/10 border border-primary/30 p-0 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
+              className="cursor-pointer bg-primary/10 border border-primary/30 p-0 rounded-sm shadow-lg hover:shadow-xl transition-all duration-300 group"
               asChild
             >
               <a
@@ -150,7 +150,7 @@ export function CommerceHero() {
                 <span className="pl-4 py-2 text-sm font-medium text-foreground">
                   Ir para AG LABS
                 </span>
-                <div className="rounded-full flex items-center justify-center m-auto bg-primary w-10 h-10 ml-2 group-hover:scale-110 transition-transform duration-300">
+                <div className="rounded-sm flex items-center justify-center m-auto bg-primary w-10 h-10 ml-2 group-hover:scale-110 transition-transform duration-300">
                   <ArrowUpRight className="w-5 h-5 text-primary-foreground" />
                 </div>
               </a>

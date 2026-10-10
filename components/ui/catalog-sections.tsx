@@ -70,7 +70,7 @@ export function CatalogSections() {
                 href={product.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto inline-flex h-11 items-center justify-center gap-2 self-start rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+                className="mt-auto inline-flex h-11 items-center justify-center gap-2 self-start rounded-sm bg-primary px-5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
               >
                 {product.cta}
                 <ArrowUpRight aria-hidden="true" className="size-4" />
@@ -139,7 +139,7 @@ export function CatalogSections() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-5 text-sm font-semibold text-foreground transition-colors hover:bg-primary/20"
+            className="inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-sm border border-primary/40 bg-primary/10 px-5 text-sm font-semibold text-foreground transition-colors hover:bg-primary/20"
           >
             <MessageCircle aria-hidden="true" className="size-4" />
             Falar no WhatsApp
