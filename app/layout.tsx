@@ -64,6 +64,7 @@ const PRODUCTS = [
   { name: "Members — plataforma para criadores de conteúdo", url: "https://members.ia.br/" },
   { name: "Viajeki — planejamento de viagens com IA", url: "https://viajeki.com.br/" },
   { name: "AG LABS App — geração de mídia com IA", url: "https://lp.aglabs.app.br/" },
+  { name: "MeCard — cartão de visita digital", url: "https://mecard.com.br/" },
   // Produtos complementares
   { name: "Cortes Virais", url: "https://cortes-virais.pages.dev/" },
   { name: "Pack Canva", url: "https://pack-canva.pages.dev/" },
