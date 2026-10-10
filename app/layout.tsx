@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
+import { PACKS, PRODUCTS, SERVICES } from "@/lib/catalog";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -16,20 +17,20 @@ const syne = Syne({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lojalabs.com.br"),
-  title: "Loja Labs — Websites, Agentes de IA e Automações | AG LABS",
+  title: "Loja Labs — Produtos e serviços da AG LABS, com preço",
   alternates: { canonical: "/" },
   description:
-    "A loja da AG LABS: websites que vendem, agentes de IA, automações e templates para automatizar processos e escalar o seu negócio.",
-  keywords: ["websites", "agentes de IA", "automação", "inteligência artificial", "templates", "AG LABS", "Loja Labs"],
+    "A vitrine da AG LABS: Barberias, Members, Viajeki, AG LABS App, MeCard e VibeKit para assinar ou comprar direto, mais sites, atendente de IA e automações.",
+  keywords: ["AG LABS", "Loja Labs", "Barberias", "Members", "Viajeki", "MeCard", "VibeKit", "sites", "atendente de IA", "automação"],
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "Loja Labs — Websites, Agentes de IA e Automações | AG LABS",
+    title: "Loja Labs — Produtos e serviços da AG LABS, com preço",
     description:
-      "A loja da AG LABS: websites que vendem, agentes de IA, automações e templates para automatizar processos e escalar o seu negócio.",
+      "A vitrine da AG LABS: Barberias, Members, Viajeki, AG LABS App, MeCard e VibeKit para assinar ou comprar direto, mais sites, atendente de IA e automações.",
     url: "https://lojalabs.com.br",
     siteName: "Loja Labs",
     locale: "pt_BR",
@@ -39,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Loja Labs — Websites, Agentes de IA e Automações | AG LABS",
+    title: "Loja Labs — Produtos e serviços da AG LABS, com preço",
     description:
-      "A loja da AG LABS: websites que vendem, agentes de IA, automações e templates para automatizar processos e escalar o seu negócio.",
+      "A vitrine da AG LABS: Barberias, Members, Viajeki, AG LABS App, MeCard e VibeKit para assinar ou comprar direto, mais sites, atendente de IA e automações.",
     images: ["/og-cover.jpg"],
   },
 };
@@ -50,25 +51,12 @@ export const viewport: Viewport = {
   themeColor: "#0a0a0a",
 };
 
-// Espelho do que a página mostra: os cards de serviço (loja-labs-hero.tsx)
-// e a malha de marcas próprias (product-logo-cloud.tsx). Ao adicionar item
-// em qualquer um dos dois, refletir aqui para o ItemList não sair de sincronia.
-const PRODUCTS = [
-  // Serviços da marca AG LABS
-  { name: "Websites que vendem", url: "https://lp.aglabs.ia.br/" },
-  { name: "Agentes de IA", url: "https://rag.aglabs.ia.br/" },
-  { name: "Automações (Workflows)", url: "https://wf.aglabs.ia.br/" },
-  { name: "Templates React (VibeKit)", url: "https://templates.aglabs.ia.br/" },
-  // Produtos de marca própria (entidade própria, AG LABS como creator)
-  { name: "Barberias — SaaS para barbearias", url: "https://barberias.com.br/" },
-  { name: "Members — plataforma para criadores de conteúdo", url: "https://members.ia.br/" },
-  { name: "Viajeki — planejamento de viagens com IA", url: "https://viajeki.com.br/" },
-  { name: "AG LABS App — geração de mídia com IA", url: "https://lp.aglabs.app.br/" },
-  { name: "MeCard — cartão de visita digital", url: "https://mecard.com.br/" },
-  // Produtos complementares
-  { name: "Cortes Virais", url: "https://cortes-virais.pages.dev/" },
-  { name: "Pack Canva", url: "https://pack-canva.pages.dev/" },
-  { name: "Achadinhos", url: "https://afiliados-aeq.pages.dev/amz/" },
+// O ItemList sai do mesmo catálogo que a página renderiza (lib/catalog.ts).
+// Para o AG LABS App, o buscador recebe a página descritiva, não o app.
+const ITEMS = [
+  ...PRODUCTS.map((p) => ({ name: p.name, description: p.description, url: p.infoHref ?? p.href })),
+  ...SERVICES.map((s) => ({ name: s.name, description: s.description, url: s.href })),
+  ...PACKS.map((p) => ({ name: p.name, description: p.description, url: p.href })),
 ];
 
 const jsonLd = {
@@ -117,17 +105,18 @@ const jsonLd = {
       "@type": "CollectionPage",
       "@id": "https://lojalabs.com.br/#webpage",
       url: "https://lojalabs.com.br/",
-      name: "Loja Labs — Websites, Agentes de IA e Automações da AG LABS",
+      name: "Loja Labs — Produtos e serviços da AG LABS",
       isPartOf: { "@id": "https://lojalabs.com.br/#website" },
       about: { "@id": "https://aglabs.ia.br/#organization" },
       inLanguage: "pt-BR",
       mainEntity: {
         "@type": "ItemList",
-        itemListElement: PRODUCTS.map((p, i) => ({
+        itemListElement: ITEMS.map((item, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          name: p.name,
-          url: p.url,
+          name: item.name,
+          description: item.description,
+          url: item.url,
         })),
       },
     },

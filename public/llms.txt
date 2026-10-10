@@ -1,18 +1,24 @@
-# Loja Labs — a loja da AG LABS
+# Loja Labs — a vitrine da AG LABS
 
-> Loja Labs reúne, num só lugar, as soluções da AG LABS (websites, agentes de IA, automações e templates) e alguns produtos digitais complementares. A AG LABS é uma empresa brasileira de inteligência artificial aplicada a negócios.
+> Loja Labs reúne, num só lugar, os produtos próprios da AG LABS (com preço de entrada), os serviços da empresa e alguns packs digitais independentes. A AG LABS é uma empresa brasileira de inteligência artificial aplicada a negócios.
 
-## Soluções AG LABS (core)
-- Sites para negócios locais: https://lp.aglabs.ia.br/
-- Agentes de IA / Atendente para WhatsApp: https://rag.aglabs.ia.br/
-- Automações (Workflows): https://wf.aglabs.ia.br/
-- Templates React (VibeKit): https://templates.aglabs.ia.br/
-- Barberias — SaaS para barbearias: https://barberias.com.br/
+## Produtos (cadastro ou compra direta)
+- Barberias — sistema de gestão para barbearias; a partir de R$ 49/mês, 7 dias grátis: https://barberias.com.br/
+- Members — área de membros para vender cursos e conteúdos digitais; 6,99% por venda: https://members.ia.br/
+- Viajeki — planejamento de viagens em grupo com IA; grátis, roteiro com IA por R$ 19,90: https://viajeki.com.br/
+- AG LABS App — imagens, vídeos, narrações e músicas com IA; 120 créditos grátis, planos a partir de R$ 26,32/mês: https://lp.aglabs.app.br/
+- MeCard — cartão de visita digital e página profissional; grátis, Pro por R$ 9,90/mês: https://mecard.com.br/
+- VibeKit — 52 templates React; R$ 97, pagamento único: https://templates.aglabs.ia.br/
 
-## Produtos digitais complementares
-- Cortes Virais — cortes/vídeos para redes sociais: https://cortes-virais.pages.dev/
-- Pack Canva — pacote de recursos para Canva: https://pack-canva.pages.dev/
-- Achadinhos — seleção de produtos recomendados (afiliados): https://afiliados-aeq.pages.dev/amz/
+## Serviços da AG LABS
+- Site profissional — R$ 497 + R$ 97/mês: https://lp.aglabs.ia.br/
+- Atendente de IA para WhatsApp — a partir de R$ 147/mês: https://rag.aglabs.ia.br/
+- Automações (Workflows) — sob proposta: https://wf.aglabs.ia.br/
+
+## Packs digitais (ofertas independentes de Antonio Garcia)
+- Cortes Virais — cortes de vídeo para redes sociais: https://cortes-virais.pages.dev/
+- Pack Canva — templates para Canva: https://pack-canva.pages.dev/
+- Achadinhos — produtos recomendados (afiliados): https://afiliados-aeq.pages.dev/amz/
 
 ## Sobre a AG LABS
 A AG LABS é uma empresa brasileira de inteligência artificial aplicada a negócios: agentes de IA, automação de processos, integrações de dados e websites de alto desempenho.
