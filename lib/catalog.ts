@@ -126,13 +126,13 @@ export const PACKS: Pack[] = [
     name: "Cortes Virais",
     description: "Pack de cortes de vídeo prontos para redes sociais.",
     image: "/cards/cortes-virais.webp",
-    href: "https://cortes-virais.pages.dev/",
+    href: "https://cortes.lojalabs.com.br/",
   },
   {
     name: "Pack Canva",
     description: "Pacote de templates editáveis no Canva.",
     image: "/cards/pack-canva.webp",
-    href: "https://pack-canva.pages.dev/",
+    href: "https://pack.lojalabs.com.br/",
   },
   {
     name: "Achadinhos",
