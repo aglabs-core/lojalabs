@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     price: "120 créditos grátis · planos a partir de R$ 26,32/mês",
     cta: "Criar agora",
     href: "https://aglabs.app.br/",
-    infoHref: "https://lp.aglabs.app.br/",
+    infoHref: "https://aglabs.app.br/sobre",
     logo: "/logos/app-aglabs.png",
   },
   {
