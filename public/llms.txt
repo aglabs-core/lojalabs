@@ -6,7 +6,7 @@
 - Barberias — sistema de gestão para barbearias; a partir de R$ 49/mês, 7 dias grátis: https://barberias.com.br/
 - Members — área de membros para vender cursos e conteúdos digitais; 6,99% por venda: https://members.ia.br/
 - Viajeki — planejamento de viagens em grupo com IA; grátis, roteiro com IA por R$ 19,90: https://viajeki.com.br/
-- AG LABS App — imagens, vídeos, narrações e músicas com IA; 120 créditos grátis, planos a partir de R$ 26,32/mês: https://lp.aglabs.app.br/
+- AG LABS App — imagens, vídeos, narrações e músicas com IA; 120 créditos grátis, planos a partir de R$ 26,32/mês: https://aglabs.app.br/sobre
 - MeCard — cartão de visita digital e página profissional; grátis, Pro por R$ 9,90/mês: https://mecard.com.br/
 - VibeKit — 52 templates React; R$ 97, pagamento único: https://templates.aglabs.ia.br/
 
