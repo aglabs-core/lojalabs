@@ -3,7 +3,7 @@
 > Loja Labs reúne, num só lugar, os produtos próprios da AG LABS (com preço de entrada), os serviços da empresa e alguns packs digitais independentes. A AG LABS é uma empresa brasileira de inteligência artificial aplicada a negócios.
 
 ## Produtos (cadastro ou compra direta)
-- Barberias — sistema de gestão para barbearias; a partir de R$ 49/mês, 7 dias grátis: https://barberias.com.br/
+- Barberias — sistema de gestão para barbearias; a partir de R$ 49/mês, 14 dias grátis: https://barberias.com.br/
 - Members — área de membros para vender cursos e conteúdos digitais; 6,99% por venda: https://members.ia.br/
 - Viajeki — planejamento de viagens em grupo com IA; grátis, roteiro com IA por R$ 19,90: https://viajeki.com.br/
 - AG LABS App — imagens, vídeos, narrações e músicas com IA; 120 créditos grátis, planos a partir de R$ 26,32/mês: https://aglabs.app.br/sobre
