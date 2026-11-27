@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     name: "Barberias",
     description:
       "Sistema de gestão para barbearias: agendamento online, equipe e relatórios.",
-    price: "A partir de R$ 49/mês · 7 dias grátis",
+    price: "A partir de R$ 49/mês · 14 dias grátis",
     cta: "Testar grátis",
     href: "https://barberias.com.br/",
     logo: "/logos/barberias.png",
